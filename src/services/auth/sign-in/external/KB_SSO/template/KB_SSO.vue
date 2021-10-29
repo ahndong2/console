@@ -1,6 +1,6 @@
 <template>
     <div class="kbSSO-wrapper">
-        <form :action="authOptions.authorization_endpoint">
+        <form :action="authOptions.authorization_endpoint" method="post">
           <input 
             type="hidden"
             id="agentId"
