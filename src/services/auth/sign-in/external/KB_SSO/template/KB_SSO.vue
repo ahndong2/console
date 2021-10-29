@@ -5,7 +5,7 @@
             type="hidden"
             id="agentId"
             name="agentId"
-            v-model="authOptions.agent_id">
+            :value="authOptions.agent_id">
             <p-button
                 style-type="primary1 outline"
                 size="lg"
